@@ -2,7 +2,7 @@ name: Reusable Deploy
 on: 
   workflow_call:
     inputs:
-      arfifact-name:
+      artifact-name:
         description: the name of the deployable artifact files
         required: false
         default: dist
